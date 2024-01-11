@@ -7,7 +7,7 @@ mysql:
   environment:
     - MYSQL_USER=springuser
     - MYSQL_PASSWORD=ThePassword
-    - MYSQL_DATABASE=db_example
-    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_DATABASE=session_service
+#    - MYSQL_ROOT_PASSWORD=root
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"
